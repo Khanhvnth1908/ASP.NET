@@ -19,5 +19,7 @@ namespace AppTea.Models
         public double Discount { get; set; }
 
         public string Status { get; set; }
+
+        public string Category { get; set; }
     }
 }

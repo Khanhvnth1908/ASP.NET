@@ -28,7 +28,8 @@ namespace AppTea.Models
                         Discount = 0.2,
                         Price = 30,
                         Status = "A",
-                        Img = "Image1"
+                        Img = "Image1",
+                        Category = "Tea"
                     },
                     new Product
                     {
@@ -37,7 +38,8 @@ namespace AppTea.Models
                         Discount = 0.3,
                         Price = 23,
                         Status = "B",
-                        Img = "Image2"
+                        Img = "Image2",
+                        Category = "Tea",
                     },
                     new Product
                     {
@@ -46,7 +48,8 @@ namespace AppTea.Models
                         Discount = 0.1,
                         Price = 11,
                         Status = "A",
-                        Img = "Image3"
+                        Img = "Image3",
+                        Category = "Tea"
                     },
                     new Product
                     {
@@ -55,7 +58,8 @@ namespace AppTea.Models
                         Discount = 0.15,
                         Price = 23,
                         Status = "B",
-                        Img = "Image4"
+                        Img = "Image4",
+                        Category = "Coffee"
                     },
                     new Product
                     {
@@ -64,7 +68,8 @@ namespace AppTea.Models
                         Discount = 0.32,
                         Price = 46,
                         Status = "C",
-                        Img = "Image5"
+                        Img = "Image5",
+                        Category = "Coffee"
                     },
                     new Product
                     {
@@ -73,7 +78,8 @@ namespace AppTea.Models
                         Discount = 0.11,
                         Price = 11,
                         Status = "B",
-                        Img = "Image6"
+                        Img = "Image6",
+                        Category = "Coffee"
                     },
                     new Product
                     {
@@ -82,7 +88,8 @@ namespace AppTea.Models
                         Discount = 0.22,
                         Price = 65,
                         Status = "C",
-                        Img = "Image7"
+                        Img = "Image7",
+                        Category = "Milk"
                     },
                     new Product
                     {
@@ -91,10 +98,10 @@ namespace AppTea.Models
                         Discount = 0.26,
                         Price = 23,
                         Status = "A",
-                        Img = "Image8"
+                        Img = "Image8",
+                        Category = "Milk"
                     }
                     );
-
                 context.SaveChanges();
             }
         }

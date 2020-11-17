@@ -21,13 +21,20 @@ using AppTea;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\User\source\repos\ASP\AppTea\AppTea\Views\_ViewImports.cshtml"
+using AppTea.Models.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\User\source\repos\ASP\AppTea\AppTea\Views\_ViewImports.cshtml"
 using AppTea.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"16c74c1216dcf430a6cd5c4ae495e5828f5e16ec", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"469325a85aa87b1c5ae4b70dca5fae4623df2e2f", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

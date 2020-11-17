@@ -34,6 +34,7 @@ namespace AppTea
                     (Configuration["ConnectionStrings:AppTeaConnections"]);
                 }
                 );
+            services.AddScoped<IStoreRepository, EFStoreRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
