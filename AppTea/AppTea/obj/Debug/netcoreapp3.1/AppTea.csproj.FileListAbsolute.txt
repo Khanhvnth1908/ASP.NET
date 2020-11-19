@@ -150,3 +150,4 @@ C:\Users\User\source\repos\ASP\AppTea\AppTea\bin\Debug\netcoreapp3.1\zh-Hant\Mic
 C:\Users\User\source\repos\ASP\AppTea\AppTea\obj\Debug\netcoreapp3.1\AppTea.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\ASP\AppTea\AppTea\obj\Debug\netcoreapp3.1\AppTea.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\source\repos\ASP\AppTea\AppTea\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSumary.cshtml.g.cs
+C:\Users\User\source\repos\ASP\AppTea\AppTea\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
