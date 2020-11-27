@@ -1,6 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using AppTea.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using AppTea.Models;
+using System.Reflection.Metadata.Ecma335;
 using AppTea.Models.ViewModel;
 
 namespace AppTea.Controllers
@@ -17,7 +23,7 @@ namespace AppTea.Controllers
 
         //public ViewResult Index(int productPage = 1) 
         //    => View(repository.Products
-        //        .OrderBy(p => p.ProductID)
+        //        .OrderBy(p => p.ID)
         //        .Skip((productPage -1) *PageSize)
         //        .Take(PageSize)
         //        );
@@ -51,8 +57,14 @@ namespace AppTea.Controllers
                 {
                     CurrentPage = productPage,
                     ItemsPerPage = PageSize,
-                    TotalItems = repository.Products.Count()
-                }
+                    //TotalItems = repository.Products.Count()
+                    TotalItems = category == null?
+                    repository.Products.Count() :
+                    repository.Products.Where(
+                        e => e.Category == category).Count()
+                },
+
+                CurrentCategory = category
             });
     }
 }

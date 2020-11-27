@@ -10,6 +10,5 @@ namespace AppTea.Models.ViewModel
 
         public string CurrentCategory { get; set; }
 
-
     }
 }
